@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from '../components/Button/Button';
 
 class App extends Component {
   render() {
@@ -11,6 +12,12 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Button
+          id="irv" 
+          text="hola"
+          type="button"
+          texto="alt" 
+        />
       </div>
     );
   }
