@@ -16,7 +16,7 @@ export class Button extends React.Component {
             </button>
         )
 
-        return button
+        return button;
     }
     
 }
@@ -25,7 +25,6 @@ Button.propTypes = {
     id: PropTypes.string.isRequired,
     text: PropTypes.any,
     texto: PropTypes.string.isRequired
-
 }
 
 export default Button;
